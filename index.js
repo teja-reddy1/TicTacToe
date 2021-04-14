@@ -10,13 +10,13 @@ var P = 0;
 
 function validate() {
     if ((S[0] == S[1] && S[1] == S[2] && S[0] != 2) || (S[3] == S[4] && S[4] == S[5] && S[3] != 2) || (S[6] == S[7] && S[7] == S[8] && S[6] != 2)) {
-        alert((P + 1) + " won");
+        alert("Player " + (P + 1) + " won");
         return;
     } else if ((S[0] == S[3] && S[3] == S[6] && S[0] != 2) || (S[1] == S[4] && S[4] == S[7] && S[1] != 2) || (S[2] == S[5] && S[5] == S[8] && S[2] != 2)) {
-        alert((P + 1) + " won");
+        alert("Player " + (P + 1) + " won");
         return;
     } else if ((S[0] == S[4] && S[4] == S[8] && S[0] != 2) || (S[2] == S[4] && S[4] == S[6] && S[2] != 2)) {
-        alert((P + 1) + " won");
+        alert("Player " + (P + 1) + " won");
         return;
     }
     var j = 0;
