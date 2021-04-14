@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+    font-family: verdana;
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    /* background-color: yellow; */
+}
+
+.holder {
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    margin-top: 50px;
+    background-color: orange;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+    display: inline-block;
+}
+
+.X {
+    background-image: url("X.jpg");
+    background-size: 60px 60px;
+}
+
+.O {
+    background-image: url("O.jpg");
+    background-size: 60px 60px;
+}
+
+.result {
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.result1 {
+    color: rgb(255, 0, 234);
+}
